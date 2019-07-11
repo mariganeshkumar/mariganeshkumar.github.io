@@ -17,31 +17,6 @@ layout: default
 <div id="main" role="main">
   {% include sidebar.html %}
 
-  <script type="text/javascript">
-  $(document).ready(function(){
-      var maxLength = 300;
-      $(".show-read-more").each(function(){
-          var myStr = $(this).text();
-          if($.trim(myStr).length > maxLength){
-              var newStr = myStr.substring(0, maxLength);
-              var removedStr = myStr.substring(maxLength, $.trim(myStr).length);
-              $(this).empty().html(newStr);
-              $(this).append(' <a href="javascript:void(0);" class="read-more">read more...</a>');
-              $(this).append('<span class="more-text">' + removedStr + '</span>');
-          }
-      });
-      $(".read-more").click(function(){
-          $(this).siblings(".more-text").contents().unwrap();
-          $(this).remove();
-      });
-  });
-  </script>
-  <style type="text/css">
-      .show-read-more .more-text{
-          display: none;
-      }
-  </style>
-
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
@@ -66,9 +41,7 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-        <div class="show-read-more">
-          {{ content }}
-        </div>
+        {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
