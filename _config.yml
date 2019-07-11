@@ -83,8 +83,8 @@ author:
   name             : "Mari Ganesh Kumar"
   avatar           : "profile.png"
   bio              : "Doctoral Researcher"
-  location         : 
-  employer         : "Indian Institute of Technology Madras"
+  location         : "Chennai"
+  employer         : "IIT Madras"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.co.in/citations?user=p0T5AC4AAAAJ&hl=en"
   email            : mari[at]cse.iitm.ac.in
@@ -241,7 +241,7 @@ defaults:
       path: ""
       type: talks
     values:
-      layout: talk
+      layout: single
       author_profile: true
       share: true
 
