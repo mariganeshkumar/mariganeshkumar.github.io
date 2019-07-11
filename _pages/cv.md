@@ -39,15 +39,7 @@ Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-
-
-<!---  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
--->
+  
 
 
 Workshops and Conference attended
@@ -76,6 +68,14 @@ Awards and Certifications
 * Others
   * Visited “Massachusetts Institute of Technology” as a visiting researcher for a period of six weeks in May 2017 and five weeks in May 2019.
   * Regional finalist of ACM-ICPC-2013, an international level programming contest.
+
+
+Talks
+======
+  <ul>{% for post in site.talks %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}</ul>
+
 
 
 
