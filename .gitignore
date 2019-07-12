@@ -1,2 +1,6 @@
 _site/
 
+
+*.tsv#
+
+\.ipynb_checkpoints/
