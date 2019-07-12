@@ -1,5 +1,5 @@
 ---
-title: "Task-Independent EEG based Subject Identification using Auditory Stimulus"
+title: "Task-Independent EEG based Subject Identification using Auditory Stimulus"
 collection: talks
 type: "Conference Presentation"
 permalink: /talks/2018-09-01-Conference Presentation at SMM 2018
