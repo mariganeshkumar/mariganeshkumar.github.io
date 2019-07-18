@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "மாரி கணேஷ் குமார்"
+title                    : "Mari Ganesh Kumar - Homepage"
 title_separator          : "-"
 name                     : &name "Mari Ganesh Kumar"
 description              : &description "Doctoral Researcher at IIT Madras"
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : mariganeshkumar
 facebook:
   username               :
   app_id                 :
@@ -80,11 +80,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Mari Ganesh Kumar"
+  name             : 
   avatar           : "profile.png"
-  bio              : "Doctoral Researcher"
+  bio              : "Doctoral Researcher at IIT Madras"
   location         : "Chennai"
-  employer         : "IIT Madras"
+  employer         : 
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.co.in/citations?user=p0T5AC4AAAAJ&hl=en"
   email            : mari[at]cse.iitm.ac.in
