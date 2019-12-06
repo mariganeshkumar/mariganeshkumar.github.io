@@ -13,6 +13,6 @@ Mari Ganesh Kumar is currently a doctoral student in the Department of Computer 
 
 Recent
 ======
-* "Spoof detection using time-delay shallow neural network and feature switching" accepted for publication in proceedings of the IEEE Automatic Speech Recognition and Understanding Workshop 2019.
+* "Spoof detection using time-delay shallow neural network and feature switching" accepted for publication in proceedings of the IEEE Automatic Speech Recognition and Understanding Workshop 2019. [Access Preprint](https://mariganeshkumar.github.io/publication/2019-01-01-Spoof-detection-using-x-vector-and-feature-switching)
 * "Subspace techniques for task independent EEG person identification" accepted for publication in proceedings of EMBC 2019
 * "Spike Estimation From Fluorescence Signals Using High-Resolution Property of Group Delay" published in IEEE transactions on Signal Processing
