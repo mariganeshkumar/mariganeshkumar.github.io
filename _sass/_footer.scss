@@ -53,19 +53,32 @@
   }
 }
 
+.page__footer-map {
+  float: left;
+  margin: 0 1.5%;
+  width: 20%;
+}
+
 .page__footer-copyright {
+  float: right;
+  margin: 0 1.5%;
+  width: 79%;
   font-family: $global-font-family;
   font-size: $type-size-7;
 }
 
 .page__footer-follow {
   ul {
+    float: right;
+    width: 79%;
     margin: 0;
     padding: 0;
     list-style-type: none;
   }
 
   li {
+    float: right;
+    width: 79%;
     display: inline-block;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -75,11 +88,15 @@
   }
 
   li + li:before {
+    float: right;
+    width: 79%;
     content: "";
     padding-right: 5px;
   }
 
   a {
+    float: right;
+    width: 79%;
     padding-right: 10px;
     font-weight: bold;
   }
