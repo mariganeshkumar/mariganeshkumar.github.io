@@ -5,6 +5,20 @@ permalink: /publication/2021-02-01-Functional-parcellation-of-mouse-visual-corte
 date: 2021-02-01
 venue: 'PLOS Computational Biology'
 paperurl: 'https://doi.org/10.1371/journal.pcbi.1008548'
+pdf: 'https://doi.org/10.1371/journal.pcbi.1008548'
 citation: ' Mari Ganesh Kumar,  Ming Hu,  Aadhirai Ramanujan,  Mriganka Sur,  Hema A. Murthy, &quot;Functional parcellation of mouse visual cortex using statistical techniques reveals response-dependent clustering of cortical processing areas.&quot; PLOS Computational Biology, 2021.'
 ---
-[Access paper here](https://doi.org/10.1371/journal.pcbi.1008548){:target="_blank"}
+[Access published version here](https://doi.org/10.1371/journal.pcbi.1008548){:target="_blank"}
+<div> 
+<div id="adobe-dc-view" style="width: 800px;"></div> 
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script> 
+<script type="text/javascript"> 
+document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+var adobeDCView = new AdobeDC.View({clientId: "4b6fe32f49a3484eb53941e96799646b", divId: "adobe-dc-view"});
+adobeDCView.previewFile({
+content:{location: {url: https://mariganeshkumar.github.io/files/journal.pcbi.1008548.pdf}},
+metaData:{fileName: "Bodea Brochure.pdf"}
+}, {embedMode: "IN_LINE"});
+});
+</script>
+</div>
