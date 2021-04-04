@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Mari Ganesh Kumar is currently a doctoral student in the Department of Computer Science and Engineering at the Indian Institute of Technology Madras. His research focus is on applied machine learning and signal processing to biomedical signals. He was awarded the medal for the best outgoing student for his undergraduate degree from the Thiagarajar College of Engineering, Anna University.
+Mari Ganesh Kumar is currently a doctoral student in the Department of Computer Science and Engineering at the Indian Institute of Technology Madras. His research focus is on applied machine learning and signal processing to bio-signals. He has worked with Speech, EEG, and Neuronal signals and have published multiple papers. He was awarded the medal for the best outgoing student for his undergraduate degree from the Thiagarajar College of Engineering, Anna University
 
 
 Recent

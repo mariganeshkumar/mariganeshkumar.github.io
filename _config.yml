@@ -83,7 +83,7 @@ author:
   name             : 
   avatar           : "profile.png"
   bio              : "Doctoral Researcher at IIT Madras"
-  location         : "Chennai"
+  location         :
   employer         : 
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.co.in/citations?user=p0T5AC4AAAAJ&hl=en"
