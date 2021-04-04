@@ -54,23 +54,23 @@
 }
 
 .page__footer-map {
-  float: left;
-  margin: 0 0 0 1.5%;
-  width: 10%;
+  float: right;
+  margin: 0 0 0 0%;
+  width: 9%;
 }
 
 .page__footer-copyright {
-  float: right;
-  margin: 0 1.5% 0 0;
-  width: 87%;
+  float: left;
+  margin: 0 0% 0 0;
+  width: 91%;
   font-family: $global-font-family;
   font-size: $type-size-7;
 }
 
 .page__footer-follow {
-  float: right;
-  margin: 0 1.5% 0 0;
-  width: 87%;
+  float: left;
+  margin: 0 0% 0 0;
+  width: 91%;
   ul {
     margin: 0;
     padding: 0;
