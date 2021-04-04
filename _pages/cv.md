@@ -12,8 +12,8 @@ redirect_from:
 Education
 ======
 * B.E. in Computer Science Engineering, [Thiagarajar College of Engineering](https://www.tce.edu), 2015
-* M.S. in Computer Science Engineering, [Indian Institute of Technology Madras](https://www.iitm.ac.in), 2020 (expected)
-* Ph.D in omputer Science Engineering, [Indian Institute of Technology Madras](https://www.iitm.ac.in), 2020 (expected)
+* M.S. in Computer Science Engineering, [Indian Institute of Technology Madras](https://www.iitm.ac.in), 2021 (expected)
+* Ph.D in Computer Science Engineering, [Indian Institute of Technology Madras](https://www.iitm.ac.in), 2021 (expected)
 
 Work experience
 ======
