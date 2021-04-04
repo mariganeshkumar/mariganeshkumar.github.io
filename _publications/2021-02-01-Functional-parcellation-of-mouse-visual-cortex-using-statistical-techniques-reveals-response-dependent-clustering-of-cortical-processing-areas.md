@@ -16,8 +16,8 @@ citation: ' Mari Ganesh Kumar,  Ming Hu,  Aadhirai Ramanujan,  Mriganka Sur,  He
 document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
 var adobeDCView = new AdobeDC.View({clientId: "4b6fe32f49a3484eb53941e96799646b", divId: "adobe-dc-view"});
 adobeDCView.previewFile({
-content:{location: {url: https://mariganeshkumar.github.io/files/journal.pcbi.1008548.pdf}},
-metaData:{fileName: "Bodea Brochure.pdf"}
+content:{location: {url: "https://mariganeshkumar.github.io/files/journal.pcbi.1008548.pdf"}},
+metaData:{fileName: "journal.pcbi.1008548.pdf"}
 }, {embedMode: "IN_LINE"});
 });
 </script>
