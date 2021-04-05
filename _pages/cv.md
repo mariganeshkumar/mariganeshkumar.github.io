@@ -44,6 +44,8 @@ Publications
 
 Workshops and Conference attended
 ======
+* IEEE Automatic Speech Recognition and Understanding Workshop (ASRU) 2019, Sentosa, Singapore, December 2019. 
+* 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society, Berlin, Germany, July 2019.
 * Winter School on Speech and Audio Processing (WiSSAP) 2019, Trivandrum, India, Jan 2019.
 * Interspeech 2018, Hyderabad, India, Sept 2018.
 * Neuromorphic Computing Workshop, IISc, Bangalore, India, Jun 2018.
