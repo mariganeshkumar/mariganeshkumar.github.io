@@ -160,8 +160,8 @@ for pubsource in publist:
             if pdf and abstract:
                 if url:
                     md += "\n[Access published version here](" + b["url"] + "){:target=\"_blank\"}\n" 
-                    md += "<div> " + "\n" 
-                    md += '<div id="adobe-dc-view" style="width: 800px;"></div> '+ "\n"
+                    md += '<div> ' + "\n" 
+                    md += '<div id="adobe-dc-view" style="width: 100%;"></div> '+ "\n"
                     md += '<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script> '+ "\n"
                     md += '<script type="text/javascript"> '+ "\n"
                     md += 'document.addEventListener("adobe_dc_view_sdk.ready", function(){ '+ "\n"
