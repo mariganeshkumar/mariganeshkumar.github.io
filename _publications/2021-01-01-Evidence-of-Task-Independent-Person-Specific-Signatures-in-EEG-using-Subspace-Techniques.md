@@ -6,7 +6,7 @@ date: 2021-01-01
 venue: 'IEEE Transactions on Information Forensics and Security'
 paperurl: 'http://dx.doi.org/10.1109/TIFS.2021.3067998'
 pdf: 'https://mariganeshkumar.github.io/files/2007.13517.pdf'
-excerpt: 'Electroencephalography (EEG) signals are promising as alternatives to other biometrics owing to their protection against spoofing. Previous studies have focused on capturing individual variability by analyzing task/condition-specific EEG. This work attempts to model biometric signatures independent of task/condition by normalizing the associated variance. Toward this goal, the paper extends ideas from subspace-based text-independent speaker recognition'
+excerpt: 'The paper extends ideas from subspace-based text-independent speaker recognition and proposes novel modifications for modeling multi-channel EEG data. The proposed techniques assume that biometric information is present in the entire EEG signal and accumulate statistics across time in a high dimensional space. These high dimensional statistics are then projected to a lower dimensional space where'
 citation: ' Mari Ganesh Kumar,  Shrikanth Narayanan,  Mriganka Sur,  Hema A Murthy, &quot;Evidence of Task-Independent Person-Specific Signatures in EEG using Subspace Techniques.&quot; IEEE Transactions on Information Forensics and Security, 2021.'
 ---
 [Access published version here](http://dx.doi.org/10.1109/TIFS.2021.3067998){:target="_blank"}
