@@ -8,14 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-Mari Ganesh Kumar is currently a doctoral student in the Department of Computer Science and Engineering at the Indian Institute of Technology Madras. His research focus is on applied machine learning and signal processing to bio-signals. He has worked with Speech, EEG, and Neuronal signals and have published multiple papers. He was awarded the medal for the best outgoing student for his undergraduate degree from the Thiagarajar College of Engineering, Anna University
+I am currently working as a Machine Learning Engineer with MTX Group. I have completed my doctoral research at the Department of Computer Science and Engineering at the Indian Institute of Technology Madras. My thesis research focus is on applied machine learning and signal processing to bio-signals. I have worked with Speech, EEG, and Neuronal signals during my doctoral program and have published multiple papers. Currently, at MTX, I am working on Computer Vision problems for an upcoming AI platform.
+
+Before joining IIT Madras, I was a backend developer at Zoho Corporation.  I obtained my bachelor's degree as an awardee of the best outgoing student medal from Thiagarajar College of Engineering, Anna University.
 
 
 Recent Updates
 ======
+* \[Sept 2021\] "Dual Script E2E Framework for Multilingual and Code-Switching ASR" published in proceedings of Interspeech 2021
 * \[Mar 2021\] "Evidence of Task-Independent Person-Specific Signatures in EEG using Subspace Techniques" published in IEEE transactions on Information Forensics and Security
 * \[Feb 2021\] "Functional parcellation of mouse visual cortex using statistical techniques reveals response-dependent clustering of cortical processing areas" published in PLOS Computational Bilogy
 * \[Sep 2020\] "Seizure Detection Using Time Delay Neural Networks and LSTMs" published in proceeding of of 2020 IEEE Signal Processing in Medicine and Biology Symposium (SPMB), 2020
-* \[Aug 2019\] "Spoof detection using time-delay shallow neural network and feature switching" published in proceedings of the IEEE Automatic Speech Recognition and Understanding Workshop 2019. [Access Preprint](https://mariganeshkumar.github.io/publication/2019-01-01-Spoof-detection-using-x-vector-and-feature-switching)
-* \[Apr 2019\] "Subspace techniques for task independent EEG person identification" published in proceedings of EMBC 2019
-* \[Feb 2019\] "Spike Estimation From Fluorescence Signals Using High-Resolution Property of Group Delay" published in IEEE transactions on Signal Processing
