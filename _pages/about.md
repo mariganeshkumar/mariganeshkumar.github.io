@@ -8,9 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am currently working as a Machine Learning Engineer with MTX Group. I have completed my doctoral research at the Department of Computer Science and Engineering at the Indian Institute of Technology Madras. My thesis research focus is on applied machine learning and signal processing to bio-signals. I have worked with Speech, EEG, and Neuronal signals during my doctoral program and have published multiple papers. Currently, at MTX, I am working on Computer Vision problems for an upcoming AI platform.
 
-Before joining IIT Madras, I was a backend developer at Zoho Corporation.  I obtained my bachelor's degree as an awardee of the best outgoing student medal from Thiagarajar College of Engineering, Anna University.
+Mari Ganesh Kumar has recently submitted his doctoral dissertation at the Department of Computer Science and Engineering, Indian Institute of Technology Madras. His thesis focuses on applied machine learning and signal processing to bio-signals. He has published multiple papers in the domain of Speech, EEG, and Neuronal signals. Currently, he is working on Computer Vision problems for an upcoming AI platform (MavQ by the MTX Group).
+
+Before joining IIT Madras, He was a backend developer at Zoho Corporation.  He obtained his bachelor's degree as an awardee of the best outgoing student medal from Thiagarajar College of Engineering, Anna University.
 
 
 Recent Updates
