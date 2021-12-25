@@ -11,7 +11,7 @@ title                    : "Mari Ganesh Kumar"
 title_separator          : "-"
 name                     : &name "Mari Ganesh Kumar"
 description              : &description "Doctoral Researcher at IIT Madras"
-url                      : https://mariganeshkumar.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mariganeshkumar/mariganeshkumar.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -122,6 +122,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - _photos/assets
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -175,6 +176,7 @@ kramdown:
 
 # Collections
 collections:
+  photos: 
   teaching:
     output: true
     permalink: /:collection/:path/
@@ -247,7 +249,9 @@ defaults:
 
 # Sass/SCSS
 sass:
-  sass_dir: _sass
+  load_paths:
+        - _sass
+        - _sass/photos_sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 

@@ -1,0 +1,45 @@
+@import 'photos_sass/libs/vars';
+@import 'photos_sass/libs/functions';
+@import 'photos_sass/libs/mixins';
+@import 'photos_sass/libs/skel';
+@import 'font-awesome.min.css';
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+
+/*
+	Lens by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+	@include skel-breakpoints((
+		xlarge: '(max-width: 1680px)',
+		large: '(max-width: 1280px)',
+		medium: '(max-width: 980px)',
+		small: '(max-width: 736px)',
+		xsmall: '(max-width: 480px)'
+	));
+
+	@include skel-layout((
+		reset: 'full',
+		boxModel: 'border'
+	));
+
+// Base.
+
+	@import 'photos_sass/base/page';
+	@import 'photos_sass/base/typography';
+
+// Component.
+
+	@import 'photos_sass/components/button';
+	@import 'photos_sass/components/form';
+	@import 'photos_sass/components/icon';
+	@import 'photos_sass/components/list';
+
+// Layout.
+
+	@import 'photos_sass/layout/main';
+	@import 'photos_sass/layout/header';
+	@import 'photos_sass/layout/footer';
+	@import 'photos_sass/layout/thumbnails';
+	@import 'photos_sass/layout/viewer';
