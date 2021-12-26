@@ -745,6 +745,22 @@
 			left: 0;
 		}
 
+		#main .resize {
+			-webkit-tap-highlight-color: transparent;
+			position: absolute;
+			top: 0;
+			width: 4em;
+			height: 4em;
+			background-image: url("images/arrows-fullscreen.svg");
+			background-repeat: no-repeat;
+			background-size: 32px 32px;
+			cursor: pointer;
+			display: none;
+			z-index: 1;
+			background-position: 0.5em 0.5em;
+			left: 0;
+		}
+
 		body.fullscreen #main {
 			visibility: hidden;
 			right: -22.5em;
@@ -777,6 +793,10 @@
 					display: block;
 				}
 
+				#main .resize {
+					display: block;
+				}
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -803,6 +823,10 @@
 				}
 
 				#main .toggle {
+					display: none;
+				}
+
+				#main .resize {
 					display: none;
 				}
 
@@ -1042,6 +1066,21 @@
 				background-position: calc(100% - 0.75em) 0.75em;
 			}
 
+			#viewer .inner .resize {
+				-webkit-tap-highlight-color: transparent;
+				position: absolute;
+				bottom: 0;
+				width: 4em;
+				height: 4em;
+				background-image: url("images/fullscreen-exit.svg");
+				background-repeat: no-repeat;
+				background-size: 64px 64px;
+				cursor: pointer;
+				z-index: 1;
+				right: 0;
+				background-position: calc(100% - 0.75em) 0.75em;
+			}
+
 			#viewer .inner .nav-next,
 			#viewer .inner .nav-previous {
 				-webkit-tap-highlight-color: transparent;
@@ -1112,7 +1151,7 @@
 				width: 100%;
 				height: 100%;
 				background-repeat: no-repeat;
-				background-size: contain;
+				background-size: cover;
 				background-position: center;
 				opacity: 0;
 			}
@@ -1157,6 +1196,15 @@
 				background-image: url("images/open.svg");
 			}
 
+		body.containimage #viewer .slide .image {
+			background-size: contain;
+		}
+
+			body.containimage #viewer .inner .resize {
+				background-image: url("images/arrows-fullscreen.svg");
+			}
+
+
 		body.is-loading-1 #viewer {
 			opacity: 0;
 		}
@@ -1189,7 +1237,21 @@
 					right: 0;
 				}
 
+				#viewer .inner .resize {
+					-moz-transition: opacity 0.75s ease;
+					-webkit-transition: opacity 0.75s ease;
+					-ms-transition: opacity 0.75s ease;
+					transition: opacity 0.75s ease;
+					background-image: url("images/fullscreen-exit.svg");
+					opacity: 1;
+					right: 0;
+				}
+
 				body.fullscreen #viewer .inner .toggle {
+					opacity: 1;
+				}
+
+				body.containimage #viewer .inner .resize {
 					opacity: 1;
 				}
 
@@ -1197,7 +1259,8 @@
 
 		@media screen and (max-width: 736px) {
 
-			#viewer .inner .toggle {
+			#viewer .inner .toggle,
+			#viewer .inner .resize  {
 				background-size: 32px 32px;
 			}
 
@@ -1209,6 +1272,10 @@
 
 			body.fullscreen #viewer .inner .toggle {
 				background-image: url("images/open-small.svg");
+			}
+
+			body.containimage #viewer .inner .resize {
+				background-image: url("images/fullscreen-exit.svg");
 			}
 
 		}
@@ -1232,7 +1299,20 @@
 					background-size: 32px 32px;
 				}
 
+				#viewer .inner .resize {
+					background-image: url("images/fullscreen-exit.svg") !important;
+					background-size: 32px 32px;
+				}
+
 				body.fullscreen #viewer {
+					-moz-transition-delay: 0.5s;
+					-webkit-transition-delay: 0.5s;
+					-ms-transition-delay: 0.5s;
+					transition-delay: 0.5s;
+					opacity: 1;
+				}
+
+				body.containimage #viewer {
 					-moz-transition-delay: 0.5s;
 					-webkit-transition-delay: 0.5s;
 					-ms-transition-delay: 0.5s;

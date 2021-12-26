@@ -66,6 +66,12 @@ var main = (function($) { var _ = {
 	$toggle: null,
 
 	/**
+	 * Resize.
+	 * @var {jQuery}
+	 */
+	 $resize: null,
+
+	/**
 	 * Nav (next).
 	 * @var {jQuery}
 	 */
@@ -104,6 +110,11 @@ var main = (function($) { var _ = {
 		// Escape: Toggle main wrapper.
 			27: function() {
 				_.toggle();
+			},
+
+		// Unkown: Resize main wrapper image.
+			28: function() {
+				_.resize();
 			},
 
 		// Up: Move up.
@@ -152,6 +163,7 @@ var main = (function($) { var _ = {
 						'<div class="nav-next"></div>' +
 						'<div class="nav-previous"></div>' +
 						'<div class="toggle"></div>' +
+						'<div class="resize"></div>' +
 					'</div>' +
 				'</div>'
 			).appendTo(_.$body);
@@ -168,6 +180,11 @@ var main = (function($) { var _ = {
 				.appendTo(_.$main);
 
 			_.$toggle = $('.toggle');
+		// Resize.
+			$('<div class="resize"></div>')
+			.appendTo(_.$main);
+
+			_.$resize = $('.resize');
 
 		// IE<9: Fix viewer width (no calc support).
 			if (skel.vars.IEVersion < 9)
@@ -343,6 +360,16 @@ var main = (function($) { var _ = {
 
 			// Prevent event from bubbling up to "hide event on tap" event.
 				_.$toggle.on('touchend', function(event) {
+					event.stopPropagation();
+				});
+		
+		// Resize.
+			_.$resize.on('click', function() {
+				_.resize();
+			});
+
+			// Prevent event from bubbling up to "hide event on tap" event.
+				_.$resize.on('touchend', function(event) {
 					event.stopPropagation();
 				});
 
@@ -765,6 +792,17 @@ var main = (function($) { var _ = {
 		else
 			_.hide();
 
+	},
+
+	/**
+	 * Resizes main wrapper.
+	 */
+	 resize: function() {
+
+		if (_.$body.hasClass('containimage'))
+			_.$body.removeClass('containimage');
+		else
+			_.$body.addClass('containimage');
 	},
 
 }; return _; })(jQuery); main.init();
