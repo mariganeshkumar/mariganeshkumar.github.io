@@ -31,12 +31,13 @@ Work experience
   * Implemented and tested various features on a REST framework developed using Java and MySQL as the core backend technologies.
 
 
-* \[Nov 2014 - May 2015\] Protject Trainee @[Zoho Corporation](https://www.zoho.com/)
+* \[Nov 2014 - May 2015\] Project Trainee @[Zoho Corporation](https://www.zoho.com/)
   * Similar contributions as mentioned above
 
 Awards and Certifications
 ======
 * Academic Achievements
+   * IIT Madras, Intitue Research Award 2021. Recognized as one among the top researchers of IIT Madras 
    * Overall Best Outgoing Student 2011-2015, Thiagarajar College of Engineering, March 2015.
    * Secured 148th national rank in Graduate Aptitude Test in Engineering (GATE) 2016. Secured national rank of 512 and 192 in GATE 2015 and 2017, respectively.
 * Certifications
