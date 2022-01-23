@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* **Doctrate** and **Master's** degree from Department of Computer Science and Engineering, **[Indian Institute of Technology Madras](https://www.iitm.ac.in)**, 2021 (Thesis Submitted)
+* **Doctrate** and **Master's** degree from Department of Computer Science and Engineering, **[Indian Institute of Technology Madras](https://www.iitm.ac.in)**, 2021 
 * **Bachelor's**  degree from Department of Computer Science and Engineering, **[Thiagarajar College of Engineering](https://www.tce.edu)**, 2015
 
 
