@@ -9,15 +9,10 @@ redirect_from:
 ---
 
 
-Mari Ganesh Kumar obtained Ph.D. and M.S. degrees from the Department of Computer Science and Engineering, Indian Institute of Technology Madras. His thesis focused on applied machine learning and signal processing to speech and other bio-signals. He has published multiple papers in Speech, EEG, and Neuronal signals. 
-
-He obtained bachelor's degree in computer science from Thiagarajar College of Engineering as an awardee of the best outgoing student medal. He is currently working on Computer Vision problems for an upcoming AI platform (MavQ by the MTX Group). Before joining IIT Madras, he was a backend developer at Zoho Corporation. 
+Mari Ganesh Kumar is an accomplished researcher and applied scientist with a Ph.D. and M.S. degree from the Department of Computer Science and Engineering, Indian Institute of Technology Madras. His thesis focused on applied machine learning and signal processing to bio-signals, and he has published multiple papers in the domain of Speech, EEG, and Neuronal signals. Currently, he is working as an Applied Scientist at Amazon, which involves making Alexa experience better for customers worldwide.
 
 
+Before joining IIT Madras, Mari worked as a backend developer at Zoho Corporation. He obtained his bachelor’s degree from Thiagarajar College of Engineering, Anna University, where he was awarded the best outgoing student medal.
 
-Recent Updates
-======
-* \[Nov 2021\] Awardee of IIT Madras, Institute Research Award July-Nov 2021. Recognized as one among the top researchers of IIT Madras 
-* \[Sept 2021\] "Dual Script E2E Framework for Multilingual and Code-Switching ASR" published in proceedings of Interspeech 2021
 
 
