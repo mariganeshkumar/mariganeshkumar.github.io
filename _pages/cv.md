@@ -17,8 +17,9 @@ Education
 
 Work experience
 ======
-* \[July 2021 - Present\] **Machine Learning Engineer**  @[MTX Group](https://www.iitm.ac.in) 
-  * Developing Vison AI skills for [MavQ AI Platform](https://mavq.com/home)
+* \[May 2022 - Present\] **Applied Scientist II**  @[Amazon - Alexa](https://www.amazon.com) 
+* \[July 2021 - May 2022\] **Machine Learning Engineer**  @[MTX Group](https://www.iitm.ac.in) 
+  * Developing Vison AI skills for [MavQ AI Platform](https://mtxb2b.com)
 
 * \[Jan 2016 - July 2021\] **Half-Time Teaching Assistant** @[Indian Institute of Technology Madras](https://www.iitm.ac.in)
   * Alongside doctoral research, assisted professors at IIT Madras in offering various Graduate and Undergraduate level courses.
