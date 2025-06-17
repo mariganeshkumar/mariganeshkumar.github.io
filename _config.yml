@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Mari Ganesh Kumar"
 title_separator          : "-"
 name                     : &name "Mari Ganesh Kumar"
-description              : &description "Applied Scientist II @ Amazon | PhD @ IIT Madras"
+description              : &description "Applied Scientist II @ Amazon | Speech & NLP Expert | PhD @ IIT Madras"
 url                      : "" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mariganeshkumar/mariganeshkumar.github.io"
@@ -87,12 +87,12 @@ analytics:
 author:
   name             : 
   avatar           : "profile.png"
-  bio              : "Applied Scientist II @ Amazon | PhD @ IIT Madras"
+  bio              : "Applied Scientist II @ Amazon | Speech & NLP Expert | PhD @ IIT Madras"
   location         :
   employer         : 
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.co.in/citations?user=p0T5AC4AAAAJ&hl=en"
-  email            : mari[at]cse.iitm.ac.in
+  email            : mariganeshkumar[at]gmail.com
   researchgate     : "https://www.researchgate.net/profile/Mari_Kumar5"
   uri              :
   bitbucket        :

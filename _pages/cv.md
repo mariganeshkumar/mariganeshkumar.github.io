@@ -11,19 +11,31 @@ redirect_from:
 
 Education
 ======
-* **Doctrate** and **Master's** degree from Department of Computer Science and Engineering, **[Indian Institute of Technology Madras](https://www.iitm.ac.in)**, 2021 
-* **Bachelor's**  degree from Department of Computer Science and Engineering, **[Thiagarajar College of Engineering](https://www.tce.edu)**, 2015
+* **Doctorate** and **Master's** degree from Department of Computer Science and Engineering, **[Indian Institute of Technology Madras](https://www.iitm.ac.in)**, 2021 
+* **Bachelor's** degree from Department of Computer Science and Engineering, **[Thiagarajar College of Engineering](https://www.tce.edu)**, 2015
 
 
 Work experience
 ======
-* \[May 2022 - Present\] **Applied Scientist II**  @[Amazon - Alexa](https://www.amazon.com) 
-* \[July 2021 - May 2022\] **Machine Learning Engineer**  @[MTX Group](https://www.iitm.ac.in) 
-  * Developing Vison AI skills for [MavQ AI Platform](https://mtxb2b.com)
+* \[May 2022 - Present\] **Applied Scientist II** @[Amazon - AGI](https://www.amazon.com)
+  * Owned the Responsible AI (RAI) component for the edge LLM-based ASR model: designed an RAI solution tailored for edge
+deployments, collaborated with cloud, business, and legal teams to secure policy alignment, and coordinated task assignments
+working backwards from deadlines to ensure timely delivery.
+  * Led architectural initiative for voice privacy in AI systems by designing and implementing a novel LLM-based speech rendering
+framework with PII anonymization capabilities. Independently evaluated vector quantization approaches (VAE/VQ-VAE),
+established technical evaluation framework across multiple quality dimensions, and documented architectural patterns that became
+reference designs for subsequent privacy-preserving speech projects.
+  * Independently developed and tested production-ready edge ASR models for domain-specific applications, achieving performance
+comparable to cloud-based or larger models.
+
+* \[July 2021 - May 2022\] **Machine Learning Engineer** @[MTX Group](https://mtxb2b.com)
+  * Developed Vision AI skills for [MavQ AI Platform](https://mavq.com)
+  * Enabled incremental learning in YOLO-V3 and YOLO-V4 object detection by using specialized loss functions, allowing the model to support additional classes without complete retraining
+  * Developed Yolo Models for Table and line-items detection in documents using novel augmentations([MavQ AI Platform](https://mavq.com))
 
 * \[Jan 2016 - July 2021\] **Half-Time Teaching Assistant** @[Indian Institute of Technology Madras](https://www.iitm.ac.in)
   * Alongside doctoral research, assisted professors at IIT Madras in offering various Graduate and Undergraduate level courses.
-  * <details> <summary>Click to see the full list of courses assisted!</summary><pre> Speech Comunication (CS6300) [Jan 2020, Jan 2021] <br> Pattern Recogntion and Machine Learning (CS5691) [July 2018, July 2019] <br> Pattern Recognition (CS6690) [July 2017] <br> Programing and Data Structres (CS2700) [July 2020] <br> Discrete Mathematics (CS1200) [Jan 2018] <br> Introduction to Programing (CS1100) [Jan 2016, July 2016, Jan 2019] <br> Software Engineering Lab (CS6690) [Jan 2017] </pre></details>
+  * <details> <summary>Click to see the full list of courses assisted!</summary><pre> Speech Communication (CS6300) [Jan 2020, Jan 2021] <br> Pattern Recognition and Machine Learning (CS5691) [July 2018, July 2019] <br> Pattern Recognition (CS6690) [July 2017] <br> Programming and Data Structures (CS2700) [July 2020] <br> Discrete Mathematics (CS1200) [Jan 2018] <br> Introduction to Programming (CS1100) [Jan 2016, July 2016, Jan 2019] <br> Software Engineering Lab (CS6690) [Jan 2017] </pre></details>
    
        
     
@@ -32,13 +44,21 @@ Work experience
   * Implemented and tested various features on a REST framework developed using Java and MySQL as the core backend technologies.
 
 
-* \[Nov 2014 - May 2015\] Project Trainee @[Zoho Corporation](https://www.zoho.com/)
+* \[Nov 2014 - May 2015\] **Project Trainee** @[Zoho Corporation](https://www.zoho.com/)
   * Similar contributions as mentioned above
+
+Skills
+======
+* **Programming Languages**: Python, Java, C++
+* **Machine Learning Frameworks**: PyTorch, TensorFlow, Scikit-learn
+* **Speech & NLP**: ASR systems, NLP, Multilingual models, Code-switching models
+* **Signal Processing**: Time series analysis, Feature extraction, Digital signal processing
+* **Cloud & DevOps**: AWS services, CI/CD pipelines, Docker
 
 Awards and Certifications
 ======
 * Academic Achievements
-   * IIT Madras, Intitue Research Award 2021. Recognized as one among the top researchers of IIT Madras 
+   * IIT Madras, Institute Research Award 2021. Recognized as one among the top researchers of IIT Madras 
    * Overall Best Outgoing Student 2011-2015, Thiagarajar College of Engineering, March 2015.
    * Secured 148th national rank in Graduate Aptitude Test in Engineering (GATE) 2016. Secured national rank of 512 and 192 in GATE 2015 and 2017, respectively.
 * Certifications
@@ -47,7 +67,7 @@ Awards and Certifications
   * Oracle Certified Professional, Java SE 6 Programmer, December 2013.
   * Business Vantage (BEC Vantage) – CEFR Level B2, April 2012.
 * Others
-  * Visited “Massachusetts Institute of Technology” as a visiting researcher for a period of six weeks in May 2017 and five weeks in May 2019.
+  * Visited "Massachusetts Institute of Technology" as a visiting researcher for a period of six weeks in May 2017 and five weeks in May 2019.
   * Regional finalist of ACM-ICPC-2013, an international level programming contest.
 
   
@@ -65,7 +85,7 @@ Talks
   {% endfor %}</ul>
 
 
-Workshops and Conference attended
+Workshops and Conferences attended
 ======
 * Interspeech 2021, September 2021 (Attended Virtually).
 * IEEE Signal Processing in Medicine and Biology Symposium, December 2020 (Attended Virtually).
@@ -75,12 +95,10 @@ Workshops and Conference attended
 * Interspeech 2018, Hyderabad, India, Sept 2018.
 * Neuromorphic Computing Workshop, IISc, Bangalore, India, Jun 2018.
 * Workshop on Computational Brain Research at IIT Madras, Chennai, India, Jan 2018.
-* Brain Modes Workshop, NBRC, Gurgaon, India,  Dec 2017.
+* Brain Modes Workshop, NBRC, Gurgaon, India, Dec 2017.
 * EEGLAB Workshop, AIISH, Mysore, India, Jan 2017.
 * Workshop on Brain, Computation and Learning, IISc, Bangalore, India, Jan 2017.
 * Workshop on Computational Brain Research at IIT Madras, Chennai, Jan 2017.
-
-
 
 
 
