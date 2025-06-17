@@ -5,6 +5,10 @@ _site/
 # Ignore the directory for local files during development
 local/
 
+*.tsv#
+
+\.ipynb_checkpoints/
+
 # Ignore the Gemfile that is generated
 Gemfile.lock
 

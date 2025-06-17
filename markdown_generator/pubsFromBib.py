@@ -100,8 +100,10 @@ for pubsource in publist:
 
             #citation authors - todo - add highlighting for primary author?
             for author in bibdata.entries[bib_id].persons["author"]:
-                citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
-
+                if author.middle_names != []:
+                    citation = citation+" "+author.first_names[0]+" " + author.middle_names[0]+" "+author.last_names[0]+", "
+                else:
+                    citation = citation+" "+author.first_names[0]+" " + author.last_names[0]+", "    
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
 
@@ -135,6 +137,17 @@ for pubsource in publist:
                     md += "\npaperurl: '" + b["url"] + "'"
                     url = True
 
+            pdf = False
+            if "pdf" in b.keys():
+                if len(str(b["pdf"])) > 5:
+                    md += "\npdf: '" + b["pdf"] + "'"
+                    pdf = True
+            abstract = False
+            if "pdf" in b.keys():
+                if len(str(b["abstract"])) > 5:
+                    md += "\nexcerpt: '" + " ".join(b["abstract"].split()[:55]) + "'"
+                    abstract = True
+
             md += "\ncitation: '" + html_escape(citation) + "'"
 
             md += "\n---"
@@ -144,7 +157,23 @@ for pubsource in publist:
             if note:
                 md += "\n" + html_escape(b["note"]) + "\n"
 
-            if url:
+            if pdf and abstract:
+                if url:
+                    md += "\n[Access published version here](" + b["url"] + "){:target=\"_blank\"}\n" 
+                    md += '<div> ' + "\n" 
+                    md += '<div id="adobe-dc-view" style="width: 100%;"></div> '+ "\n"
+                    md += '<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script> '+ "\n"
+                    md += '<script type="text/javascript"> '+ "\n"
+                    md += 'document.addEventListener("adobe_dc_view_sdk.ready", function(){ '+ "\n"
+                    md += 'var adobeDCView = new AdobeDC.View({clientId: "4b6fe32f49a3484eb53941e96799646b", divId: "adobe-dc-view"});'+ "\n"
+                    md += 'adobeDCView.previewFile({'+ "\n"
+                    md += 'content:{location: {url: "'+b["pdf"]+'"}},'+ "\n"
+                    md += 'metaData:{fileName: "'+b["pdfname"]+'"}'+ "\n"
+                    md += '}, {embedMode: "IN_LINE"});'+ "\n"
+                    md += "});"+ "\n"
+                    md += "</script>"+ "\n"
+                    md += "</div>"+ "\n"
+            elif url:
                 md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
             else:
                 md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
