@@ -17,7 +17,10 @@ Education
 
 Work experience
 ======
-* \[May 2022 - Present\] **Applied Scientist II** @[Amazon - AGI](https://www.amazon.com)
+* \[September 2025 - Present\] **Senior Software Engineer (SSWE) AI/ML** @[Google](https://www.google.com)
+  * Working on AI/ML initiatives at Google
+
+* \[May 2022 - August 2025\] **Applied Scientist II** @[Amazon - AGI](https://www.amazon.com)
   * Owned the Responsible AI (RAI) component for the edge LLM-based ASR model: designed an RAI solution tailored for edge
 deployments, collaborated with cloud, business, and legal teams to secure policy alignment, and coordinated task assignments
 working backwards from deadlines to ensure timely delivery.
